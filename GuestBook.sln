@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "GuestBook", "GuestBook\GuestBook.ccproj", "{0A1E22A4-DF77-4289-AD6A-60698779399D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook_WebRole", "GuestBook_WebRole\GuestBook_WebRole.csproj", "{7F49819D-A583-4C88-9FA3-40DD24565F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook_Data", "GuestBook_Data\GuestBook_Data.csproj", "{2048CF94-28FE-4557-980E-62E1055E2544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A1E22A4-DF77-4289-AD6A-60698779399D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1E22A4-DF77-4289-AD6A-60698779399D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1E22A4-DF77-4289-AD6A-60698779399D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1E22A4-DF77-4289-AD6A-60698779399D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F49819D-A583-4C88-9FA3-40DD24565F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F49819D-A583-4C88-9FA3-40DD24565F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F49819D-A583-4C88-9FA3-40DD24565F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F49819D-A583-4C88-9FA3-40DD24565F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2048CF94-28FE-4557-980E-62E1055E2544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2048CF94-28FE-4557-980E-62E1055E2544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2048CF94-28FE-4557-980E-62E1055E2544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2048CF94-28FE-4557-980E-62E1055E2544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
