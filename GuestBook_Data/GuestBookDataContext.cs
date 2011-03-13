@@ -16,6 +16,7 @@ namespace GuestBook_Data
                 return this.CreateQuery<GuestBookEntry>("GuestBookEntry");
             }
         }
+
         public GuestBookDataContext(string baseAddress, StorageCredentials credentials) : base(baseAddress, credentials)
         {}
     }

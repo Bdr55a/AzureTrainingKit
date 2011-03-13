@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using Microsoft.WindowsAzure;
+using Microsoft.WindowsAzure.ServiceRuntime;
 
 namespace GuestBook_WebRole
 {
@@ -13,6 +15,8 @@ namespace GuestBook_WebRole
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
+            CloudStorageAccount.SetConfigurationSettingPublisher((configName, configSetter) =>
+                { configSetter(RoleEnvironment.GetConfigurationSettingValue(configName)); });
 
         }
 
